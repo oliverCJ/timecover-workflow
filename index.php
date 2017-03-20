@@ -1,4 +1,5 @@
 <?php
+date_default_timezone_set(PRC);
 require_once('workflows.php');
 $query = "{query}";
 $wx = new Workflows();
